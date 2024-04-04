@@ -13,7 +13,7 @@ var server = app.listen(PORT, function() {
 
 //GET STATUS ENDPOINT
 app.get('/', function (req, res) {
-  res.send(`Hello World app v2 is running on ${req.hostname}`)
+  res.send(`Hello World app v3 is running on ${req.hostname}`)
 })
 
 //GET Date ENDPOINT
