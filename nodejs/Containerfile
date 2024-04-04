@@ -8,7 +8,7 @@ USER 1001
 
 RUN /usr/libexec/s2i/assemble
 
-FROM ubi8/nodejs-20-minimal
+FROM registry.access.redhat.com/ubi8/nodejs-20-minimal
 
 COPY --from=builder $HOME $HOME
 
