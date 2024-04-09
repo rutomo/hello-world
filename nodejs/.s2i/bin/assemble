@@ -6,6 +6,7 @@ rc=$?
 
 if [ $rc -eq 0 ]; then
     echo "After successful assembling"
+    # any devDependencies must be installed as Dependecies, otherwise, these packages won't be able available after running assemble script
     npm test
 else
     echo "After failed assembling"
